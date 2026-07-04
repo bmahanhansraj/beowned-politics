@@ -1,0 +1,23 @@
+{
+  "name": "beowned-politics",
+  "version": "1.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "next": "^15.5.20",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}
+
